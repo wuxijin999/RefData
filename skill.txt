@@ -1,0 +1,4 @@
+﻿技能Id	技能名称			
+SkillId	SkillName	PostSkillId	Radius	FakeField
+1	发奋读书	1;2;3	1	ff
+2	空手入白刃	2;4;5	2.54	ff
