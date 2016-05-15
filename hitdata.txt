@@ -1,4 +1,12 @@
-﻿技能Id	技能名称			
-SkillId	SkillName	PostSkillId	Radius	FakeField
-1	发奋读书	1;2;3	1	ff
-2	空手入白刃	2;4;5	2.54	ff
+﻿唯一标示	攻击模式	攻击范围(毫米)	目标模式	目标数量	目标阵营	伤害类型	伤害比例	伤害判定中心	伤害判定半径	投射攻击的飞行速度
+Id	AttackMode	AttackRange	TargetMode	TargetNum	TargetFaction	DamageType	DamageRate	DecisionCenter	DecisionRadius	Speed
+1	Melee	1000	Target	1	Oppose	Normal	100	0,0,3	0	0
+2	Melee	500	Target	1	Oppose	Normal	100	0,0,3	0	0
+3	Melee	500	Target	1	Oppose	Smash	200	0,0,3	0	0
+4	Melee	500	Target	1	Oppose	Hero	250	0,0,3	0	0
+5	Melee	1000	Target	1	Oppose	Holy	300	0,0,3	0	0
+6	Project	6000	Notarget	0	Oppose	Puncture	100	0,0,0	1	10
+7	Project	6000	Notarget	0	Oppose	Puncture	90	0,0,0	2	10
+8	Project	6000	Notarget	0	Oppose	Magic	80	0,0,0	3	10
+9	Project	6000	Target	3	Oppose	Holy	120	0,0,0	4	10
+10	Project	7000	Notarget	0	Oppose	Hero	150	0,0,0	1	10
